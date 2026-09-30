@@ -1,0 +1,22 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente (NUNCA commitar)
+.env
+.env.*
+!.env.example
+
+# Build
+dist/
+dist-ssr/
+build/
+
+# Notas locais / assistente
+claude.md
+CLAUDE.md
+
+# Logs e sistema
+*.log
+logs/
+.DS_Store
+Thumbs.db
